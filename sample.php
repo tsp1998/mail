@@ -12,15 +12,8 @@ session_start();
 		$_SESSION['next_page']="https://example.com"; // type website address here where you want to go after mail sent or you can put localhost address if you are on localhost e.g. localhost/project/page_name.php
 		
 	
-	/*
-	you can check Boolean $sent variable on next_page above mentioned to check mail sent or not
 	
-	if $sent =
-	true - mail sent
-	false - mail not sent
-	*/
-	
-		echo "<script>window.location='https://royalstar.000webhostapp.com/mail.php'</script>";
+		echo "<script>window.location='https://royalstar.000webhostapp.com/send-mail.php'</script>";
 		
 		
  ?>
